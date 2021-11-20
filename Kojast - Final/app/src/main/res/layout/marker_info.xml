@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/txtMarkerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/label_name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imgMarkerType"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtMarkerDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:padding="4dp"
+        android:text="@string/label_description"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorPrimaryLight"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtMarkerDriving"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/label_driving"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                tools:ignore="RtlHardcoded,SmallSp" />
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="36dp"
+                android:gravity="right|center_vertical"
+                android:text="@string/label_driving"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+                tools:ignore="RtlHardcoded,SmallSp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtMarkerWalking"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/label_walking"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                tools:ignore="RtlHardcoded,SmallSp" />
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="36dp"
+                android:gravity="right|center_vertical"
+                android:text="@string/label_walking"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+                tools:ignore="RtlHardcoded,SmallSp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

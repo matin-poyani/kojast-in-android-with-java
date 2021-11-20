@@ -1,0 +1,31 @@
+<resources>
+    <string name="api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDpsvLSzxhOeMgCcR-vX5nJA0UG5XenkTk</string>
+    <string name="app_name">کجاست؟</string>
+    <string name="error_info">خطا در دریافت اطلاعات</string>
+    <string name="error_location">موقعیت شما برای مسیریابی مشخص نیست</string>
+    <string name="error_not_supported">عدم پشتیبانی</string>
+    <string name="error_permissions">خطا در دریافت مجوزها</string>
+    <string name="label_center">مرکز</string>
+    <string name="label_city">شهر</string>
+    <string name="label_description">شرح</string>
+    <string name="label_distance">طول مسیر</string>
+    <string name="label_driving">سواره</string>
+    <string name="label_duration">زمان</string>
+    <string name="label_location">موقعیت</string>
+    <string name="label_message">پیام</string>
+    <string name="label_name">نام</string>
+    <string name="label_touch">محل لمس</string>
+    <string name="label_ok">بسیار خوب</string>
+    <string name="label_request_permissions">درخواست مجوزها</string>
+    <string name="label_select">انتخاب</string>
+    <string name="label_state">استان</string>
+    <string name="label_traffic">ترافیک</string>
+    <string name="label_view_road">نمایش جاده‌ای</string>
+    <string name="label_view_satellite">نمایش ماهواره‌ای</string>
+    <string name="label_walking">پیاده</string>
+    <string name="message_city_select">شهر را انتخاب کنید</string>
+    <string name="message_exit">برای خروج، دکمه‌ی بازگشت را دوباره فشار دهید</string>
+    <string name="message_not_found">خاصی یافت نشد</string>
+    <string name="message_not_supported">خدمات گوگل روی دستگاه شما پشتیبانی نمی‌شود</string>
+    <string name="message_wait">لطفاً صبر کنید</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@color/colorPrimaryLight"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/label_state"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spnState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:id="@+id/prgLoading"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="right"
+        android:text="@string/label_city"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        tools:ignore="RtlHardcoded" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spnCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_select"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        app:backgroundTint="@color/colorPrimaryDark" />
+</LinearLayout>
